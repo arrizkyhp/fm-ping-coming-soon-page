@@ -1,0 +1,37 @@
+@use "functions" as *;
+
+// Colors
+// Primary
+
+$blue: #4f7df3;
+
+// Secondary
+$pale-blue: #c2d3ff;
+$light-red: #ff5263;
+
+// Neutral
+$gray: #969696;
+$dark-blue: #151f29;
+
+// Colors Pallete
+$colors: (
+  "blue": $blue,
+  "pale-blue": $pale-blue,
+  "light-red": $light-red,
+  "gray": $gray,
+  "dark-blue": $dark-blue,
+);
+
+// Font size
+$base-font-size: rem(20) !default;
+
+// Font Weight
+$font-weight-300: 300;
+$font-weight-600: 600;
+$font-weight-700: 700;
+
+// Border Radius
+$base-border-radius: rem(50) !default;
+
+// Box-Shadow
+$base-box-shadow: 0px 4px 5px rgba(79, 125, 243, 0.39);

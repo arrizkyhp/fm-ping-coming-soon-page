@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+.text-blue {
+  color: #4f7df3;
+}
+
+.bg-blue {
+  background-color: #4f7df3;
+}
+
+.text-pale-blue {
+  color: #c2d3ff;
+}
+
+.bg-pale-blue {
+  background-color: #c2d3ff;
+}
+
+.text-light-red {
+  color: #ff5263;
+}
+
+.bg-light-red {
+  background-color: #ff5263;
+}
+
+.text-gray {
+  color: #969696;
+}
+
+.bg-gray {
+  background-color: #969696;
+}
+
+.text-dark-blue {
+  color: #151f29;
+}
+
+.bg-dark-blue {
+  background-color: #151f29;
+}
+
+.fw-light {
+  font-weight: 300;
+}
+
+.fw-semi-bold {
+  font-weight: 600;
+}
+
+.fw-bold {
+  font-weight: 700;
+}
+
+html {
+  font-style: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  color: inherit;
+  margin: 0;
+  bottom: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  height: 100%;
+  font-family: "Libre Franklin", sans-serif;
+  position: relative;
+}
+
+.card {
+  background-color: salmon;
+}
+
+.hero {
+  color: aqua;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
