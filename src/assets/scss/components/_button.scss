@@ -36,6 +36,11 @@
       animation-fill-mode: forwards;
     }
   }
+
+  @include breakpoint-max(sm) {
+    max-width: rem(300);
+    height: rem(47);
+  }
 }
 
 @keyframes spin {

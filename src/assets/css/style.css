@@ -139,6 +139,12 @@ body {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
+@media (max-width: 480px) {
+  .btn {
+    max-width: 18.75rem;
+    height: 2.9375rem;
+  }
+}
 
 @-webkit-keyframes spin {
   0% {
@@ -284,6 +290,7 @@ form .form-group input {
 form .form-group input.error-message {
   border: 1px solid #ff5263;
   margin: 0rem auto;
+  margin-bottom: 1.25rem;
 }
 @media (max-width: 480px) {
   form .form-group {
@@ -291,7 +298,7 @@ form .form-group input.error-message {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 100%;
+    max-width: 18.75rem;
   }
 }
 form .error {
@@ -301,6 +308,12 @@ form .error {
   left: 1.5625rem;
   font-size: 0.6875rem;
   font-style: italic;
+}
+@media (max-width: 480px) {
+  form .error {
+    top: 3.125rem;
+    left: 3.125rem;
+  }
 }
 
 .header {
@@ -326,20 +339,42 @@ form .error {
   max-width: 5.375rem;
   margin-bottom: 2.5rem;
 }
+@media (max-width: 480px) {
+  .header .logo {
+    max-width: 3.75rem;
+  }
+}
 .header .title {
   font-size: 2.8125rem;
   margin-bottom: 0.625rem;
+}
+@media (max-width: 480px) {
+  .header .title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5625rem;
+  }
 }
 .header .description {
   font-size: 1.25rem;
   letter-spacing: -0.02em;
   margin-bottom: 2.1875rem;
 }
+@media (max-width: 480px) {
+  .header .description {
+    font-size: 0.875rem;
+  }
+}
 
 .hero {
   width: 100%;
   max-width: 35rem;
   margin-bottom: 3.125rem;
+}
+@media (max-width: 480px) {
+  .hero {
+    margin-bottom: 5rem;
+    max-width: 20.625rem;
+  }
 }
 
 .bottom {
