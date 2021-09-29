@@ -37,14 +37,16 @@ form {
   .error {
     position: absolute;
     color: $light-red;
-    bottom: rem(-18);
-    left: rem(25);
+    top: rem(50);
+    // width: 100%;
+    left: rem(30);
+    right: rem(50);
     font-size: rem(11);
     font-style: italic;
 
     @include breakpoint-max(sm) {
-      top: rem(50);
-      left: rem(50);
+      // top: rem(50);
+      // left: rem(50);
     }
   }
 }

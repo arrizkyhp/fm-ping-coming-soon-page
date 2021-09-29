@@ -35,15 +35,15 @@ const FormEmail = () => {
             placeholder="Your emaill address..."
             name="email"
             {...register("email", {
-              required: "Email is required",
+              required: "Whoops! It looks like you forgot to add your email",
               pattern: {
                 value: /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g,
                 message: "Please provide a valid email address.",
               },
             })}
           />
-          <Button className={animate} >Notify Me</Button>
-        {errors?.email && <ErrorMessage message={errors.email.message} />}
+          <Button className={animate}>Notify Me</Button>
+          {errors?.email && <ErrorMessage message={errors.email.message} />}
         </div>
         <Snackbar ref={snackBarRef} message="Thanks for Subscribing :)" type={SnackbarType.success} />
       </form>
