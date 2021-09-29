@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fm-ping-coming-soon-page/static/css/main.d0f756b4.chunk.css",
+    "main.js": "/fm-ping-coming-soon-page/static/js/main.0051114a.chunk.js",
+    "main.js.map": "/fm-ping-coming-soon-page/static/js/main.0051114a.chunk.js.map",
+    "runtime-main.js": "/fm-ping-coming-soon-page/static/js/runtime-main.8ccc2296.js",
+    "runtime-main.js.map": "/fm-ping-coming-soon-page/static/js/runtime-main.8ccc2296.js.map",
+    "static/js/2.d304122b.chunk.js": "/fm-ping-coming-soon-page/static/js/2.d304122b.chunk.js",
+    "static/js/2.d304122b.chunk.js.map": "/fm-ping-coming-soon-page/static/js/2.d304122b.chunk.js.map",
+    "index.html": "/fm-ping-coming-soon-page/index.html",
+    "static/css/main.d0f756b4.chunk.css.map": "/fm-ping-coming-soon-page/static/css/main.d0f756b4.chunk.css.map",
+    "static/js/2.d304122b.chunk.js.LICENSE.txt": "/fm-ping-coming-soon-page/static/js/2.d304122b.chunk.js.LICENSE.txt",
+    "static/media/illustration-dashboard.f9aaf3db.png": "/fm-ping-coming-soon-page/static/media/illustration-dashboard.f9aaf3db.png",
+    "static/media/logo.7e09371f.svg": "/fm-ping-coming-soon-page/static/media/logo.7e09371f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ccc2296.js",
+    "static/js/2.d304122b.chunk.js",
+    "static/css/main.d0f756b4.chunk.css",
+    "static/js/main.0051114a.chunk.js"
+  ]
+}
