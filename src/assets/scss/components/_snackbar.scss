@@ -1,0 +1,56 @@
+@use "../utils" as *;
+
+.snackbar {
+  position: fixed;
+  left: 50%;
+  right: 50%;
+  top: 5%;
+  transform: translate(-50%, -50%);
+  width: rem(350);
+  height: rem(60);
+  border-radius: rem(8);
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  .icon {
+    flex: 20%;
+  }
+
+  .message {
+    flex: 80%;
+    text-align: start;
+    font-weight: 700;
+  }
+}
+
+#show {
+  visibility: visible;
+  animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+
+#hide {
+  visibility: hidden;
+}
+
+@keyframes fadeIn {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: rem(30);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    bottom: rem(30);
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}

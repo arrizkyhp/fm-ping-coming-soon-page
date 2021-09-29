@@ -1,0 +1,24 @@
+@use "../utils" as *;
+
+.header {
+  @include flex-centering();
+  margin-top: rem(60);
+  margin-bottom: rem(60);
+
+  .logo {
+    width: 100%;
+    max-width: rem(86);
+    margin-bottom: rem(40);
+  }
+
+  .title {
+    font-size: rem(45);
+    margin-bottom: rem(10);
+  }
+
+  .description {
+    font-size: $base-font-size;
+    letter-spacing: -0.02em;
+    margin-bottom: rem(35);
+  }
+}

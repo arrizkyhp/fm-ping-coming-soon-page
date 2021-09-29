@@ -1,5 +1,28 @@
 @use "../utils" as *;
 
-.card {
-  background-color: salmon;
+.btn {
+  border: none;
+  width: 100%;
+  max-width: rem(168);
+  padding: rem(10);
+  border-radius: rem(50);
+  cursor: pointer;
+  box-shadow: $base-box-shadow;
+  transition: all 0.3s ease-in;
+
+  &:hover {
+    background-color: lighten($blue, 8%);
+  }
+}
+
+.btn-snackbar {
+  width: rem(200);
+  height: rem(50);
+  background-color: cornflowerblue;
+  border: none;
+  border-radius: rem(10);
+  margin-top: rem(300);
+  cursor: pointer;
+  color: white;
+  font-size: rem(20);
 }

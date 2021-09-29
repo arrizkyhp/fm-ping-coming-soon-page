@@ -1,5 +1,7 @@
 @use "../utils" as *;
 
 .hero {
-  color: aqua;
+  width: 100%;
+  max-width: rem(560);
+  margin-bottom: rem(50);
 }
