@@ -12,13 +12,18 @@ const SnackbarType = {
 
 const FormEmail = () => {
      const [submitted, setSubmitted] = useState(false);
+     const [animate, setAnimate] = useState("test");
      const snackBarRef = useRef(null);
     const { handleSubmit, register, formState: { errors }} = useForm();
 
     const onSubmit = (data) => {
         setSubmitted(true)
-        snackBarRef.current.show();
-    }
+        setAnimate("animate");
+        setTimeout(() => {
+            snackBarRef.current.show();
+            setAnimate("");
+        }, 3000);
+}
 
 
     return (
@@ -37,9 +42,9 @@ const FormEmail = () => {
               },
             })}
           />
-          <Button>Notify Me</Button>
-        </div>
+          <Button className={animate} >Notify Me</Button>
         {errors?.email && <ErrorMessage message={errors.email.message} />}
+        </div>
         <Snackbar ref={snackBarRef} message="Thanks for Subscribing :)" type={SnackbarType.success} />
       </form>
     );

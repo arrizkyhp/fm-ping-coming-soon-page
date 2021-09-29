@@ -1,13 +1,16 @@
 @use "../utils" as *;
 
 form {
-  position: relative;
+  width: 100%;
   .form-group {
+    position: relative;
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap;
     gap: rem(10);
-    width: rem(580);
+    width: 100%;
+    margin: rem(0) auto;
+    max-width: rem(580);
 
     input {
       width: 100%;
@@ -20,7 +23,14 @@ form {
 
       &.error-message {
         border: 1px solid $light-red;
+        margin: rem(0) auto;
       }
+    }
+
+    @include breakpoint-max(sm) {
+      flex-direction: column;
+      width: 100%;
+      //   max-width: rem(350);
     }
   }
 
