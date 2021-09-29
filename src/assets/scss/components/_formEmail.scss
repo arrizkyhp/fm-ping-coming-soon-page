@@ -46,7 +46,8 @@ form {
 
     @include breakpoint-max(sm) {
       // top: rem(50);
-      // left: rem(50);
+      width: 100%;
+      left: rem(20);
     }
   }
 }

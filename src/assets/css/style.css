@@ -310,6 +310,13 @@ form .error {
   font-size: 0.6875rem;
   font-style: italic;
 }
+@media (max-width: 480px) {
+  form .error {
+    width: 100%;
+    left: 1.25rem;
+  }
+}
+
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -445,6 +452,11 @@ form .error {
 }
 .attribution a {
   color: #3e52a3;
+}
+@media (max-width: 480px) {
+  .attribution {
+    visibility: hidden;
+  }
 }
 
 main {
